@@ -1,0 +1,19 @@
+body {    
+    margin: 0;
+    padding: 0;
+    background-image: url(imagen/Fondo.png);
+    background-size: cover;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+.T-Logo {
+    color: white;
+    display: inline-block;
+}
+
+.Logo {
+    float: left;
+}
