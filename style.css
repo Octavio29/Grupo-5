@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {    
     margin: 0;
     padding: 0;
@@ -44,10 +46,26 @@ li {
 
 }
 
+.posters {
+    background-color: rgba(0, 0, 0, 0.815);
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.textposters {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    background: rgba(117, 113, 113, 0.24);
+}
 
 /* Estilos para pantallas medianas (769px a 1279px) */
-@media screen and (min-width: 769px) and (max-width: 1279px){
-
+@media screen and (min-width: 600px) and (max-width: 1279px){
     .T-Logo {
         color: white;
         display: inline-block;
@@ -60,31 +78,35 @@ li {
     .text{
         font-family: sans-serif;
         background: red;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
     }
     
     ul {
-        display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         grid-template-rows: 50px;
         }
     
     li {
-        display: grid;
         justify-content: center;
         align-items: center;
         padding-right: 10px;
     }
+    
+    .posters {
+        background-color: rgba(0, 0, 0, 0.815);
+        padding-left: px;
+        display: flex;
+    }
+    
+    .textposters {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        background: rgba(117, 113, 113, 0.24);
+    }
 }
 
-/* Estilos para pantallas grandes (más de 1280px) */
-@media screen and (min-width: 1280px) {
-
-.container {
-width: 80%;
-padding: 30px;
-background-color: lightcoral; /* Color de fondo */
-}
-
-}
