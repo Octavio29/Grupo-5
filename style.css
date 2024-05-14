@@ -145,3 +145,61 @@ li {
         background: rgba(117, 113, 113, 0.24);
     }
 }
+
+/* Estilos para pantallas*/
+@media screen and (min-width: 375px) and (max-width: 667px){
+    .T-Logo {
+        color: white;
+        display: inline-block;
+    }
+    
+    .Logo {
+        float: left;
+    }
+
+    .img2 {
+        width:  100px;
+    }
+
+    .img1 {
+        width:  120px;
+        height: 400px;
+    }
+    
+    .text{
+        display: flex;
+        font-family: sans-serif;
+        background: red;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+    
+    ul {
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: 50px;
+        }
+    
+    li {
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
+    
+    .posters {
+        background-color: rgba(0, 0, 0, 0.815);
+        padding-left: 1px;
+        display: flex;
+    }
+    
+    .textposters {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        background: rgba(117, 113, 113, 0.24);
+    }
+}
